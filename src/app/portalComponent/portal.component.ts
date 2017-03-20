@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
+
 @Component({
-    selector: 'portal-app', // do use me do <portal-app> in html
-    template: `<h1>{{title}}</h1>`,
-    templateUrl:''
+    selector: 'portal-app', // do use me do <portal-app> in html  ,
+    
+    styleUrls: ['/app/portalComponent/portal.component.css'],
+    templateUrl: '/app/portalComponent/portal.component.html'
+
 })
 export class PortalComponent {
     name = 'Bhavik Gosrani';
